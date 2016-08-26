@@ -2,6 +2,9 @@
 title: Sophie Dewey
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
@@ -34,12 +37,12 @@ email: info@sophiedewey.com
 facebook: 
 instagram: 
 twitter: sophielouisedewey
-imdb:
-vimeo:
+imdb: 
+vimeo: 
 linkedin: 
 googleplus: 
-google:
-verification:
+google: 
+verification: 
 logo: "/assets/img/layout/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
