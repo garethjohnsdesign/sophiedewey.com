@@ -1,6 +1,6 @@
 ---
 title: KFC - 50 Years
-date: 2016-04-12 13:35:00 Z
+date: 2015-04-02 13:35:00 Z
 img: 
 video: 
 company: BBH
