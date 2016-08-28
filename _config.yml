@@ -1,0 +1,49 @@
+---
+title: Sophie Dewey
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+url: http://sophiedewey.com
+permalink: pretty
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+exclude:
+- bower_components
+description: London-based freelance producer working in film and television
+domain: http://sophiedewey.com
+company: Sophie Dewey
+email: info@sophiedewey.com
+facebook: 
+instagram: 
+twitter: sophielouisedewey
+imdb: 
+vimeo: 
+linkedin: 
+googleplus: 
+google: 
+verification: 
+logo: "/assets/img/layout/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true

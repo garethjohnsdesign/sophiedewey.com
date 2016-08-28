@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<!-- Description -->
+<section class="index__description">
+	<div class="row">
+		<div class="small-12 medium-10 large-8 columns">
+		<h1>{{site.description}}</h1>
+		</div>
+	</div>
+</section>
+<!-- End Description -->
+
+<!-- Content -->
+<section class="index__content">
+	<div class="row">
+		{% assign projects = site.projects | sort: 'date' | reverse | where: "is-featured", "true" %}
+		{% for project in projects limit:9 %}
+		<div class="small-12 medium-6 large-6 columns">
+		{% include excerpt.html %}
+		</div>
+		{% endfor %}
+	</div>
+</section>
+<!-- End Content -->
