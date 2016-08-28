@@ -1,6 +1,6 @@
 ---
 title: Solo
-date: 2016-04-12 13:35:00 Z
+date: 2016-07-07 13:35:00 Z
 img: 
 video: 
 company: Colonel Blimp
