@@ -1,6 +1,6 @@
 ---
 title: Insider Guide
-date: 2016-04-12 13:35:00 Z
+date: 2015-10-27 13:35:00 Z
 img: 
 video: 
 company: i-D / Vice
