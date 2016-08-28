@@ -1,6 +1,6 @@
-# Katie Swinden
+# Sophie Dewey
 
-Website for Inside Retail. Please go to [www.katieswinden.com](http://katieswinden.com) in case you want to take a look at the website.
+Website for Sophie Dewey. Please go to [www.sophiedewey.com](http://sophiedewey.com) in case you want to take a look at the website.
 
 * * *
 
