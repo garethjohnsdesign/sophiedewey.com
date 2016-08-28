@@ -98,12 +98,6 @@ a {
 .index__description {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
-	a {
-    color: $color--dark-gray;
-    }
-    a:hover {
-    color: $color--black;
-    }
 }
 
 .index__content {
@@ -186,7 +180,10 @@ a {
 .excerpt__title {
 	padding-top: 1rem;
 	margin-bottom: 0.25rem;
-	line-height: $line-height--tight
+	line-height: $line-height--tight;
+	a {
+    color: $color--dark-gray;
+    }
 }
 
 .excerpt p {
@@ -196,15 +193,11 @@ a {
 // About
 
 .about__content {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
 .about__cv {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }

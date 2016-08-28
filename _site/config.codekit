@@ -167,29 +167,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/about\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/css\/app.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/app.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -472,6 +454,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/chanel-fifth-sense\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/chanel-fifth-sense\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/clarks\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -598,6 +589,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/ode-to-soho\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/ode-to-soho\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/paloma-faith-only-love\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -688,6 +688,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/virgin-media-takeover\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/virgin-media-takeover\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/wilkinson-dirty-love\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -717,50 +726,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/_site\/uploads\/luther-season-one.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114742,
-		"inputAbbreviatedPath": "\/_site\/uploads\/luther-season-one.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/luther-season-one.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/luther-season-two.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 171067,
-		"inputAbbreviatedPath": "\/_site\/uploads\/luther-season-two.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/luther-season-two.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/marvellous.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127672,
-		"inputAbbreviatedPath": "\/_site\/uploads\/marvellous.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/marvellous.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/peaky-blinders.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71322,
-		"inputAbbreviatedPath": "\/_site\/uploads\/peaky-blinders.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/peaky-blinders.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/_site\/uploads\/sophie-dewey-alt-j.jpg": {
 		"fileType": 16384,
@@ -839,6 +804,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/uploads\/sophie-dewey-ode-to-soho.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67884,
+		"inputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-ode-to-soho.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-ode-to-soho.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/uploads\/sophie-dewey-paloma-faith.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -854,7 +830,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41699,
+		"initialSize": 17987,
 		"inputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-pleasure-seekers.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-pleasure-seekers.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -868,6 +844,17 @@
 		"initialSize": 39651,
 		"inputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-radio1-reboot.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-radio1-reboot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/uploads\/sophie-dewey-solo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41547,
+		"inputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-solo.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-solo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -890,94 +877,6 @@
 		"initialSize": 40679,
 		"inputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-tame-impala.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-tame-impala.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/spooks-season-five.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 134320,
-		"inputAbbreviatedPath": "\/_site\/uploads\/spooks-season-five.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/spooks-season-five.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/spooks-season-four.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 124023,
-		"inputAbbreviatedPath": "\/_site\/uploads\/spooks-season-four.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/spooks-season-four.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/spooks-season-seven.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 99075,
-		"inputAbbreviatedPath": "\/_site\/uploads\/spooks-season-seven.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/spooks-season-seven.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/uploads\/spooks-season-six.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 113920,
-		"inputAbbreviatedPath": "\/_site\/uploads\/spooks-season-six.jpg",
-		"outputAbbreviatedPath": "\/_site\/uploads\/spooks-season-six.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/luther-season-one.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114742,
-		"inputAbbreviatedPath": "\/_uploads\/luther-season-one.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/luther-season-one.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/luther-season-two.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 171067,
-		"inputAbbreviatedPath": "\/_uploads\/luther-season-two.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/luther-season-two.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/marvellous.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127672,
-		"inputAbbreviatedPath": "\/_uploads\/marvellous.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/marvellous.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/peaky-blinders.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71322,
-		"inputAbbreviatedPath": "\/_uploads\/peaky-blinders.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/peaky-blinders.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1059,6 +958,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_uploads\/sophie-dewey-ode-to-soho.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67884,
+		"inputAbbreviatedPath": "\/_uploads\/sophie-dewey-ode-to-soho.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/sophie-dewey-ode-to-soho.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_uploads\/sophie-dewey-paloma-faith.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1074,7 +984,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41699,
+		"initialSize": 17987,
 		"inputAbbreviatedPath": "\/_uploads\/sophie-dewey-pleasure-seekers.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/sophie-dewey-pleasure-seekers.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1088,6 +998,17 @@
 		"initialSize": 39651,
 		"inputAbbreviatedPath": "\/_uploads\/sophie-dewey-radio1-reboot.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/sophie-dewey-radio1-reboot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/sophie-dewey-solo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41547,
+		"inputAbbreviatedPath": "\/_uploads\/sophie-dewey-solo.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/sophie-dewey-solo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1114,59 +1035,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_uploads\/spooks-season-five.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 134320,
-		"inputAbbreviatedPath": "\/_uploads\/spooks-season-five.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/spooks-season-five.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/spooks-season-four.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 124023,
-		"inputAbbreviatedPath": "\/_uploads\/spooks-season-four.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/spooks-season-four.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/spooks-season-seven.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 99075,
-		"inputAbbreviatedPath": "\/_uploads\/spooks-season-seven.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/spooks-season-seven.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_uploads\/spooks-season-six.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 113920,
-		"inputAbbreviatedPath": "\/_uploads\/spooks-season-six.jpg",
-		"outputAbbreviatedPath": "\/_uploads\/spooks-season-six.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/about.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/about.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -1174,8 +1042,8 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/about.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/about.html",

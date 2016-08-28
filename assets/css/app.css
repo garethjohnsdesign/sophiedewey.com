@@ -8097,10 +8097,6 @@ a {
 .index__description {
   margin-top: 3rem;
   margin-bottom: 3rem; }
-  .index__description a {
-    color: #949494; }
-  .index__description a:hover {
-    color: #222222; }
 
 .index__content {
   padding-top: 0rem;
@@ -8164,19 +8160,17 @@ a {
   padding-top: 1rem;
   margin-bottom: 0.25rem;
   line-height: 1.16; }
+  .excerpt__title a {
+    color: #949494; }
 
 .excerpt p {
   margin-bottom: 0; }
 
 .about__content {
-  font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
 .about__cv {
-  font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
