@@ -1,6 +1,6 @@
 ---
 title: Paloma Faith - Only Love
-date: 2016-04-12 13:35:00 Z
+date: 2014-04-27 13:35:00 Z
 img: 
 video: 
 company: Somesuch
