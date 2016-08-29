@@ -1,7 +1,7 @@
 ---
 title: Alt J - Every Other Freckle
 date: 2014-09-04 13:35:00 Z
-position: 28
+position: 29
 img: "/uploads/sophie-dewey-alt-j.jpg"
 video: https://vimeo.com/129507118
 company: Partizan
