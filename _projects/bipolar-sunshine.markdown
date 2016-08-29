@@ -1,7 +1,7 @@
 ---
 title: Bipolar Sunshine - Deckchairs on The Moon
 date: 2014-05-01 13:35:00 Z
-position: 19
+position: 20
 img: "/uploads/sophie-dewey-bipolar-sunshine.jpg"
 video: https://www.youtube.com/watch?v=NUaPAf0uOwA
 company: Caviar
