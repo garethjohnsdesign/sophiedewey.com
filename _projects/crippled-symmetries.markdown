@@ -1,6 +1,6 @@
 ---
 title: Crippled Symmetries
-date: 2015-06-02 13:35:00 Z
+date: 2015-05-13 13:35:00 Z
 img: 
 video: 
 company: Somesuch
