@@ -1,7 +1,7 @@
 ---
 title: Crippled Symmetries
 date: 2015-05-13 13:35:00 Z
-position: 35
+position: 36
 img: 
 video: 
 company: Somesuch

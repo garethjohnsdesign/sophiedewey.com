@@ -1,7 +1,7 @@
 ---
 title: Bryan Ferry - Loop De Li
 date: 2014-10-15 13:35:00 Z
-position: 31
+position: 32
 img: "/uploads/sophie-dewey-bryan-ferry.jpg"
 video: https://www.youtube.com/watch?v=6a0_ko3Vr68
 company: Somesuch
