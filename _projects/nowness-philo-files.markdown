@@ -1,7 +1,7 @@
 ---
 title: Nowness - Philo Files
 date: 2014-10-28 13:35:00 Z
-position: 28
+position: 29
 img: 
 video: 
 company: Somesuch
