@@ -1,7 +1,7 @@
 ---
 title: Pleasure Seekers
 date: 2015-08-12 13:35:00 Z
-position: 13
+position: 14
 img: "/uploads/sophie-dewey-pleasure-seekers.jpg"
 video: https://vimeo.com/138071921
 company: Somesuch

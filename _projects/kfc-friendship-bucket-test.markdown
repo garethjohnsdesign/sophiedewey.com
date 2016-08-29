@@ -1,7 +1,7 @@
 ---
 title: KFC Friendship Bucket Test
 date: 2015-11-14 13:35:00 Z
-position: 11
+position: 12
 img: 
 video: 
 company: BBH
