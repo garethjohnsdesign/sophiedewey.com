@@ -1,7 +1,7 @@
 ---
 title: Insider Guide
 date: 2015-10-27 13:35:00 Z
-position: 22
+position: 10
 img: 
 video: 
 company: i-D / Vice
