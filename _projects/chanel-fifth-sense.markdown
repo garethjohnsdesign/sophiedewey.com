@@ -1,6 +1,6 @@
 ---
 title: Chanel Fifth Sense Documentary
-date: 2016-08-28 13:35:00 Z
+date: 2016-07-01 13:35:00 Z
 img: 
 video: 
 company: i-D
