@@ -2,7 +2,7 @@
 title: Moko - Your Love
 date: 2014-07-03 13:35:00 Z
 position: 31
-img: "/uploads/sophie-dewey-moko.jpg"
+image: "/uploads/sophie-dewey-moko.jpg"
 video: https://vimeo.com/180600742
 company: Somesuch
 runtime: Promo
