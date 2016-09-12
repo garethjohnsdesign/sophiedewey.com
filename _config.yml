@@ -17,15 +17,15 @@ defaults:
     type: projects
   values:
     layout: project
-    position:
-    img:
-    video:
-    company:
-    runtime:
-    director:
-    producers:
-    role:
-    is-featured:
+    position: 
+    img: 
+    video: 
+    company: 
+    runtime: 
+    director: 
+    producers: 
+    role: 
+    is-featured: 
 url: http://sophiedewey.com
 permalink: pretty
 gems:
