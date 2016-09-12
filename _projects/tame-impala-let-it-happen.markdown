@@ -2,7 +2,7 @@
 title: Tame Impala — Let It Happen
 date: 2015-07-08 13:35:00 Z
 position: 14
-img: "/uploads/sophie-dewey-tame-impala.jpg"
+image: "/uploads/sophie-dewey-tame-impala.jpg"
 video: https://www.youtube.com/watch?v=pFptt7Cargc
 company: Colonel Blimp
 runtime: Promo

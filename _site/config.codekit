@@ -890,6 +890,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/uploads\/sophie-dewey-tesco-fathers-day.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43912,
+		"inputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-tesco-fathers-day.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/sophie-dewey-tesco-fathers-day.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_uploads\/sophie-dewey-alt-j.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1040,6 +1051,17 @@
 		"initialSize": 35668,
 		"inputAbbreviatedPath": "\/_uploads\/sophie-dewey-tame-impala.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/sophie-dewey-tame-impala.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/sophie-dewey-tesco-fathers-day.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43912,
+		"inputAbbreviatedPath": "\/_uploads\/sophie-dewey-tesco-fathers-day.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/sophie-dewey-tesco-fathers-day.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
