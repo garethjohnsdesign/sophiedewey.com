@@ -17,6 +17,15 @@ defaults:
     type: projects
   values:
     layout: project
+    position:
+	img:
+	video:
+	company:
+	runtime:
+	director:
+	producers:
+	role:
+	is-featured:
 url: http://sophiedewey.com
 permalink: pretty
 gems:
@@ -30,7 +39,7 @@ kramdown:
 highlighter: rouge
 exclude:
 - bower_components
-description: London-based freelance producer working in film and television
+description: London-based freelance producer specialising in online content, commercials and music videos
 domain: http://sophiedewey.com
 company: Sophie Dewey
 email: info@sophiedewey.com
