@@ -18,6 +18,7 @@ defaults:
   values:
     layout: project
     position:
+    img:
     video:
     company:
     runtime:
