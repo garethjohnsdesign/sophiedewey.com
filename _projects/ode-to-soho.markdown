@@ -1,5 +1,5 @@
 ---
-title: London Fashion Week
+title: London Fashion Week- Ode to Soho
 date: 2015-10-01 13:35:00 Z
 position: 11
 image: "/uploads/sophie-dewey-ode-to-soho.jpg"
