@@ -1,6 +1,6 @@
 ---
 title: Chanel Fifth Sense Documentary
-date: 2016-09-24 14:47:00 Z
+date: 2016-09-21 14:47:00 Z
 image: "/uploads/sophie-dewey-chanel-fifth-sense.jpg"
 video: https://vimeo.com/184115398
 company: i-D
