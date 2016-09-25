@@ -4,10 +4,10 @@ timezone: UTC
 collections:
   posts:
     title: Posts
-    output: true
+    output: false
   projects:
     title: Projects
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -44,14 +44,13 @@ domain: http://sophiedewey.com
 company: Sophie Dewey
 email: info@sophiedewey.com
 facebook: 
-instagram: 
-twitter: sophielouisedewey
+instagram: sophielouisedewey
+twitter:
 imdb: 
 vimeo: 
 linkedin: 
 googleplus: 
-google: 
-verification: 
+google_site_verification: JsKZJjAYl-cQI2L2kbGIVacYhNRlYoZTzTUpHREVCjU
 logo: "/assets/img/layout/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
