@@ -25,7 +25,8 @@ defaults:
     role: 
     is-featured: 
 url: http://sophiedewey.com
-description: London-based freelance producer specialising in online content, commercials and music videos
+description: London-based freelance producer specialising in online content, commercials
+  and music videos
 permalink: pretty
 exclude:
 - Gemfile
@@ -59,5 +60,5 @@ future: true
 social:
   facebook: 
   instagram: https://www.instagram.com/sophielouisedewey
-  twitter:
-  vimeo:
+  twitter: 
+  vimeo: 
