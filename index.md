@@ -1,6 +1,6 @@
 ---
-title: Sophie Dewey - Producer
-image: "/assets/img/meta/og-image.png"
+title: Sophie Dewey
+image: "/assets/img/og-image.png"
 layout: index
 ---
 

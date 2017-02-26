@@ -7,16 +7,15 @@ collections:
     output: true
   projects:
     title: Projects
-    output: false
+    output: true
   uploads:
     title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
     type: projects
   values:
-    layout: project
     image: 
     video: 
     company: 
@@ -26,7 +25,21 @@ defaults:
     role: 
     is-featured: 
 url: http://sophiedewey.com
+description: London-based freelance producer specialising in online content, commercials
+  and music videos
 permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -36,23 +49,16 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-exclude:
-- bower_components
-description: London-based freelance producer specialising in online content, commercials
-  and music videos
-domain: http://sophiedewey.com
 company: Sophie Dewey
 email: info@sophiedewey.com
-facebook: 
-instagram: sophielouisedewey
-twitter: 
-imdb: 
-vimeo: 
-linkedin: 
-googleplus: 
 google_site_verification: JsKZJjAYl-cQI2L2kbGIVacYhNRlYoZTzTUpHREVCjU
 analytics: UA-77269752-1
-logo: "/assets/img/layout/logo.svg"
+logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
+social:
+  facebook: 
+  instagram: https://www.instagram.com/sophielouisedewey
+  twitter: 
+  vimeo: 

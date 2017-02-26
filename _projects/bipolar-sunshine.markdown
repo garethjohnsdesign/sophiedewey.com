@@ -1,5 +1,5 @@
 ---
-title: Bipolar Sunshine - Deckchairs on The Moon
+title: Bipolar Sunshine — Deckchairs on The Moon
 date: 2014-05-01 13:35:00 Z
 position: 33
 image: "/uploads/sophie-dewey-bipolar-sunshine.jpg"
