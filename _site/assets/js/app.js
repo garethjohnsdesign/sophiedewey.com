@@ -1,16 +1,18 @@
 $(document).foundation();
 
-$('body').removeClass('fade-out');
-
-$('a[href*="#"]:not([href="#"])').click(function() {
-if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-  var target = $(this.hash);
-  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-  if (target.length) {
-    $('html, body').animate({
-      scrollTop: target.offset().top
-    }, 1000);
-    return false;
-  }
-}
+$('#video-gallery').lightGallery({
+    selector: '.excerpt',
+    youtubePlayerParams: {
+        modestbranding: 1,
+        showinfo: 0,
+        rel: 0,
+        controls: 0
+    },
+    vimeoPlayerParams: {
+        autoplay, 1,
+        title : 0,
+        byline : 0,
+        portrait : 0,
+        color : 'FFFFFF'     
+    }
 });

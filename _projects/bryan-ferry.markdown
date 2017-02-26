@@ -1,5 +1,5 @@
 ---
-title: Bryan Ferry - Loop De Li
+title: Bryan Ferry — Loop De Li
 date: 2014-10-15 13:35:00 Z
 position: 26
 image: "/uploads/sophie-dewey-bryan-ferry.jpg"

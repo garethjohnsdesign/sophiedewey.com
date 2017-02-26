@@ -1,5 +1,5 @@
 ---
-title: Clarks - Back to School
+title: Clarks — Back to School
 date: 2015-03-11 13:35:00 Z
 position: 19
 image: "/uploads/sophie-dewey-clarks.jpg"

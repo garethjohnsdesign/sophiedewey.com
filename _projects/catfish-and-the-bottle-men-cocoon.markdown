@@ -1,5 +1,5 @@
 ---
-title: Catfish and The Bottle Men - Cocoon
+title: Catfish and The Bottle Men — Cocoon
 date: 2014-09-17 13:35:00 Z
 position: 27
 image: 

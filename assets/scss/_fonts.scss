@@ -1,14 +1,27 @@
 @font-face {
-  font-family: 'ApercuPro-Regular';
-  src: url('../fonts/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ApercuPro-Regular.woff') format('woff'), url('../fonts/ApercuPro-Regular.ttf')  format('truetype'), url('../fonts/ApercuPro-Regular.svg#ApercuPro-Regular') format('svg');
+  font-family: 'LyonText-Regular';
+  src: 
+  url('../fonts/LyonText-Regular.woff') format('woff'), 
+  url('../fonts/LyonText-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LyonText-RegularItalic';
+  src: 
+  url('../fonts/LyonText-RegularItalic.woff') format('woff'), 
+  url('../fonts/LyonText-RegularItalic.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 
 @font-face {
-  font-family: 'Graphik-Light-Web';
-  src: url('../fonts/Graphik-Light-Web.eot?#iefix') format('embedded-opentype'), url('../fonts/Graphik-Light-Web.woff') format('woff'), url('../fonts/Graphik-Light-Web.ttf')  format('truetype'), url('../fonts/Graphik-Light-Web.svg#Graphik-Light-Web') format('svg');
+  font-family: 'lg';
+  src: 
+  url('../fonts/lg.woff') format('woff'), 
+  url('../fonts/lg.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }

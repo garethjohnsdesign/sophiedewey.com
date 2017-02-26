@@ -1,0 +1,31 @@
+{
+  "name": "froogaloop2",
+  "homepage": "https://github.com/vimeo/player-api/tree/master/javascript",
+  "description": "https://github.com/vimeo/player-api/blob/master/readme.mdown",
+  "main": "froogaloop.js",
+  "keywords": [
+    "vimeo",
+    "froogaloop"
+  ],
+  "authors": [
+    "vimeo"
+  ],
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "a94956dd8c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a94956dd8cf5e20c7b3e71ceb2137773f979ccc1"
+  },
+  "_source": "https://github.com/divsbhalala/froogaloop2.git",
+  "_target": "*",
+  "_originalSource": "froogaloop2",
+  "_direct": true
+}

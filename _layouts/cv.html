@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<!-- CV -->
+<div class="row cv">
+  <div class="expand columns">
+  	
+    <div class="row show-for-medium italic cv__titles">
+      <div class="small-12 medium-3 large-3 columns">
+      Title
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Company
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Director(s)
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Producer(s)
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Role
+      </div>
+      <div class="small-12 medium-1 large-1 columns show-for-medium">
+      Date
+      </div>
+    </div>
+  	    
+    {% assign projectssorted = site.projects | sort: 'date' | reverse %}
+    {% for item in projectssorted %}
+    <div class="row">
+      <div class="small-12 medium-3 large-3 columns">
+      {{item.title}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      {{item.company}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      {{item.director}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns show-for-medium">
+      {{item.producers}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns show-for-medium">
+      {{item.role}}
+      </div>
+      <div class="small-12 medium-1 large-1 columns show-for-medium">
+      {{item.date | date: '%Y'}}
+      </div>
+    </div>
+    <hr>
+    {%endfor%}
+    
+  </div>
+</div>
+<!-- End CV -->
