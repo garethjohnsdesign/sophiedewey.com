@@ -87,12 +87,6 @@
 		"oAP": "\/_layouts\/compress.html",
 		"oF": 0
 		},
-	"\/_layouts\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/contact.html",
-		"oF": 0
-		},
 	"\/_layouts\/cv.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -115,12 +109,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/missing.html",
-		"oF": 0
-		},
-	"\/_layouts\/page.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/_layouts\/projects.html": {
@@ -773,19 +761,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/_hamburgers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_hamburgers.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/scss\/_icons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -821,19 +796,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_lightgallery.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_menu.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -6028,24 +5990,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
-		},
-	"\/contact.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/cv.md": {
 		"cS": 0,
