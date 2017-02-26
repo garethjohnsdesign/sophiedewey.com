@@ -63,9 +63,9 @@ slack.com
 FONTS
 -----
 
-Apercu
-by Colophon Foundry
-colophon-foundry.org
+Tiempos Headline
+by Kris Sowersby
+klim.co.nz
 
 Graphik
 by Commercial Type

@@ -1,84 +1,59 @@
-// Standard
+//  Table of Contents:
+//
+//   1. Global
+//   2. Typography
+//   3. Navigation
 
-body {
-    opacity: 1;
-    transition: $primary-transition;
-}
-body.fade-out {
-    opacity: 0;
-    transition: $primary-transition;
+
+// 1. Global
+// ---------
+
+body {  
+  cursor: default;
 }
 
 svg {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: $primary-transition;
 }
 
 ::selection {
-    background: #333;
-    color: #fff
+  background: $color--black;
+  color: $color--white;
 }
-
-.no-js {
-  @include breakpoint(small only) {
-    .top-bar {
-      display: none;
-    }
-  }
-
-  @include breakpoint(medium) {
-    .title-bar {
-      display: none;
-    }
-  }
-}
-
-// Typography
-
-.uppercase {
-	text-transform: uppercase;
-}
-
-@mixin accent-text {
-	text-transform: uppercase;
-	letter-spacing: $letter-spacing--looser;
-}
-
-// Layout
 
 a { 
-	transition: $primary-transition;
+  transition: $primary-transition;
 }
 
-.detail {
-	font-size: 0.9rem;
-	font-family: $body-font-family;
+// 2. Typography
+
+.uppercase {
+  text-transform: uppercase;
 }
 
-.underline-black { 
-	@include underline-from-left;
+i, cite, em, var, address, dfn {
+  font-style: normal;
 }
 
 
-// Header
+// 3. Navigation
+
+.top-bar__logo {
+  font-size: 1.5rem;
+}
 
 .navigation {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 1rem;
-	@include breakpoint(large) {
-   padding: 2rem;
-  	}
+z-index: 1010;
 }
 
-.current a {
-  color: $color--dark-gray;
-}
 
 // 404
 
@@ -93,20 +68,46 @@ a {
     }
 }
 
-//Index
+// 4. Index
 
-.index__description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+
+// 6. Page
+
+.contact {
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
 }
 
-.index__content {
-	padding-top: 0rem;
-	padding-bottom: 3rem;
+.project__content {
+	padding: 1rem 3rem 1rem 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
 }
 
 
-// Project
+.page__content {
+	padding: 1rem 3rem 1rem 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+  	h3 {
+    margin-bottom: 2rem;
+    }
+}
+
+
+
+.contact a {
+  color: $color--dark-gray;
+  &:hover {
+    color: $color--black;
+  }
+}
+
+// 7. Project
 
 .project__meta {
 	padding-top: 2rem;
@@ -120,12 +121,23 @@ a {
 	color: $color--dark-gray;
 }
 
-.project__hero {
-	padding-top: 3rem;
+
+.project__image__second {
+	@include breakpoint(small only) {
+    padding-top: 1rem;
+    }
 }
 
+
 .project__content {
-	padding-top: 3rem;
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+.project__images img {
+  padding-bottom: 2rem;
 }
 
 .project__content a {
@@ -135,108 +147,123 @@ a {
   }
 }
 
+.project__step {
+  padding-bottom: 2rem;
+}
+
 .project__share {
-	@include accent-text;
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
 }
 
 .project__share__bottom {
 	padding-top: 2rem;
-	@include accent-text;
 }
 
 .project__pagination {
-	padding-top: 2rem;
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+// 8. Pagination
+
+.pagination__wrapper {
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+.callout--pagination {
+  border: 2px solid $color--amber;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.pagination {
+  background-color: $color--black;
+//   border: blue 1px solid;
+  padding: 2rem 2rem 1rem 2rem;
+  width: 100%;
+  &:hover {
+    background-color: $color--black;
+  }
 }
 
 
-// Excerpt
+// 6. Excerpt
+// ----------
 
 .excerpt {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  position:relative;
+  opacity:1;
+  padding-bottom: 2rem;
+  transition: $primary-transition;
 }
 
 .excerpt__image {
-    position:relative;
+  margin-bottom: 0.5rem;
+  transition: $primary-transition;
 }
 
-.excerpt__image:after {
-    content:'\A';
-    position:absolute;
-    width:100%; 
-    height:100%;
-    top:0; 
-    left:0;
-    background:rgba(0,0,0,0.2);
-    opacity:0;
-    transition: $primary-transition;
+.excerpt__image:hover {
+  opacity: 0.7;
 }
 
-.excerpt__image:hover:after {
-    opacity:1;
+.excerpt__text {
+  padding-top: 0.5rem;
+}
+
+.excerpt__text__title {
+  color: $color--black;
+  padding-top: 1rem;
+}
+
+.excerpt__text__date {
+  color: $color--gray;
 }
 
 
-.excerpt__title {
-	padding-top: 1rem;
-	margin-bottom: 0.25rem;
-	line-height: $line-height--tight;
-	a {
-    color: $color--dark-gray;
-    }
-}
-
-.excerpt p {
-	margin-bottom: 0;
-}
-
-// About
+// 10. About
 
 .about__content {
+	font-family: $header-font-family;
+	font-size: 1.5rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	@include breakpoint(small only) {
+	padding-top: 2rem;
+	padding-bottom: 2rem
+  	}
 }
 
 .about__cv {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
-
-.projects__titles {
-	color: $color--dark-gray;
-	padding-top: 2rem;
-	padding-bottom: 1rem;
-}
-
-// Footer
-
-footer {
-	margin-top: 3rem;
-	background-color: $color--darkest-gray;
-	color: $color--dark-gray;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
-	a {
-    color: $color--white;
-    }
-}
-
-.footer__top {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
 	font-family: $header-font-family;
 	font-size: 1.5rem;
-}
-
-footer .detail {
-	padding-bottom: 1rem;
-}
-
-.footer__bottom {
-	@include breakpoint(large) {
-   padding: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	@include breakpoint(small only) {
+	padding-top: 2rem;
+	padding-bottom: 2rem
   	}
+}
+
+.about_book {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+// 11. Footer
+
+/*
+footer {
+	padding: 2rem 3rem 1.68rem 3rem;
 	a {
-    color: $color--dark-gray;
+    color: $color--white;
+    display: block;
     }
 }
+*/
