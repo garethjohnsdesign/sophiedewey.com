@@ -1,5 +1,5 @@
 ---
-title: KFC Friendship Bucket Test
+title: KFC — Friendship Bucket Test
 date: 2015-11-14 13:35:00 Z
 position: 9
 image: 

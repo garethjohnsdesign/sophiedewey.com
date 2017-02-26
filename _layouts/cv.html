@@ -2,102 +2,56 @@
 layout: default
 ---
 
-<!-- Content -->
-<section class="about__content">
-	<div class="row">
-		<div class="small-11 medium-10 large-8 columns">
-		<h3>Profile</h3>
-		{{ page.content | markdownify }}
-		</div>
-	</div>
-</section>
-<!-- End Content -->
-
 <!-- CV -->
-<section class="about__cv">
-<!--
-	{% assign collection = site.projects | group_by: "medium" %}
-	{% for group in collection %}
-		<div class="row">
-		<div class="small-12 columns">
-			<h3>Projects</h3>
-			<table class="hover">
-			  <tbody>
-				{% assign collectionsorted = group.items | sort: 'date' | reverse %}
-				{% for item in collectionsorted %}
-			    <tr>
-			      <td>{{item.title}}</td>
-			      <td>{{item.company}}</td>
-			      <td>{{item.runtime}}</td>
-			      <td>{{item.director}}</td>
-			      <td>{{item.producers}}</td>
-			      <td>{{item.role}}</td>
-			      <td>{{item.date | date: '%Y'}}</td>
-			    </tr>
-			    {%endfor%}
-			  </tbody>
-			</table>
-		</div>
-		</div>
-	{%endfor%}
--->
-<div class="row">
-		<div class="small-12 columns">
-		<h3>Projects</h3>
-		</div>
-	</div>
-
-		<div class="row">
-		<div class="small-12 columns">
-			
-				<div class="row show-for-medium projects__titles">
-				<div class="small-12 medium-3 large-3 columns">
-				Title
-				</div>
-				<div class="small-12 medium-2 large-2 columns">
-			    Company
-			    </div>
-			    <div class="small-12 medium-2 large-2 columns">
-			    Director(s)
-			    </div>
-			    <div class="small-12 medium-2 large-2 columns">
-			    Producer(s)
-			    </div>
-			    <div class="small-12 medium-2 large-2 columns">
-			    Role
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    Date
-			    </div>
-			    </div>
-			    
-			    {% assign projectssorted = site.projects | sort: 'date' | reverse %}
-				{% for item in projectssorted %}
-				<div class="row">
-				<div class="small-12 medium-3 large-3 columns">
-				{{item.title}}
-				</div>
-				<div class="small-12 medium-2 large-2 columns">
-			    {{item.company}}
-			    </div>
-			    <div class="small-12 medium-2 large-2 columns">
-			    {{item.director}}
-			    </div>
-			    <div class="small-12 medium-2 large-2 columns show-for-medium">
-			    {{item.producers}}
-			    </div>
-			    <div class="small-12 medium-2 large-2 columns show-for-medium">
-			    {{item.role}}
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    {{item.date | date: '%Y'}}
-			    </div>
-			    </div>
-			    <hr>
-			    {%endfor%}
-
-		</div>
-		</div>
-
-</section>
+<div class="row cv">
+  <div class="expand columns">
+  	
+    <div class="row show-for-medium italic cv__titles">
+      <div class="small-12 medium-3 large-3 columns">
+      Title
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Company
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Director(s)
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Producer(s)
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      Role
+      </div>
+      <div class="small-12 medium-1 large-1 columns show-for-medium">
+      Date
+      </div>
+    </div>
+  	    
+    {% assign projectssorted = site.projects | sort: 'date' | reverse %}
+    {% for item in projectssorted %}
+    <div class="row">
+      <div class="small-12 medium-3 large-3 columns">
+      {{item.title}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      {{item.company}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns">
+      {{item.director}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns show-for-medium">
+      {{item.producers}}
+      </div>
+      <div class="small-12 medium-2 large-2 columns show-for-medium">
+      {{item.role}}
+      </div>
+      <div class="small-12 medium-1 large-1 columns show-for-medium">
+      {{item.date | date: '%Y'}}
+      </div>
+    </div>
+    <hr>
+    {%endfor%}
+    
+  </div>
+</div>
 <!-- End CV -->

@@ -7,11 +7,21 @@
   font-style: normal;
 }
 
-/*
 @font-face {
-  font-family: 'BasisGrotesque-OffWhite';
-  src: url('../fonts/BasisGrotesque-OffWhite.eot?#iefix') format('embedded-opentype'),  url('../fonts/BasisGrotesque-OffWhite.woff') format('woff'), url('../fonts/BasisGrotesque-OffWhite.ttf')  format('truetype'), url('../fonts/BasisGrotesque-OffWhite.svg#BasisGrotesque-OffWhite') format('svg');
+  font-family: 'LyonText-RegularItalic';
+  src: 
+  url('../fonts/LyonText-RegularItalic.woff') format('woff'), 
+  url('../fonts/LyonText-RegularItalic.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-*/
+
+
+@font-face {
+  font-family: 'lg';
+  src: 
+  url('../fonts/lg.woff') format('woff'), 
+  url('../fonts/lg.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

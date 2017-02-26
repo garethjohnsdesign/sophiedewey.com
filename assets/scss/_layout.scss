@@ -20,8 +20,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  opacity: 0;
-  transition: $primary-transition;
 }
 
 ::selection {
@@ -33,6 +31,18 @@ a {
   transition: $primary-transition;
 }
 
+.wrapper {
+  @include breakpoint(small) {
+    padding: 1rem 0rem;
+  }
+  @include breakpoint(medium) {
+    padding: 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 3rem;
+  }
+}
+
 // 2. Typography
 
 .uppercase {
@@ -41,6 +51,10 @@ a {
 
 i, cite, em, var, address, dfn {
   font-style: normal;
+}
+
+.italic {
+  font-family: $body-font-family-italic;
 }
 
 
@@ -70,6 +84,20 @@ z-index: 1010;
 
 // 4. Index
 
+.index__description {
+  @include breakpoint(small) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  @include breakpoint(medium) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  @include breakpoint(large) {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
 
 // 6. Page
 
@@ -107,92 +135,6 @@ z-index: 1010;
   }
 }
 
-// 7. Project
-
-.project__meta {
-	padding-top: 2rem;
-}
-
-.project__meta p {
-	margin-bottom: 0rem;
-}
-
-.project__meta .detail {
-	color: $color--dark-gray;
-}
-
-
-.project__image__second {
-	@include breakpoint(small only) {
-    padding-top: 1rem;
-    }
-}
-
-
-.project__content {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.project__images img {
-  padding-bottom: 2rem;
-}
-
-.project__content a {
-  color: $color--dark-gray;
-  &:hover {
-    color: $color--black;
-  }
-}
-
-.project__step {
-  padding-bottom: 2rem;
-}
-
-.project__share {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.project__share__bottom {
-	padding-top: 2rem;
-}
-
-.project__pagination {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-// 8. Pagination
-
-.pagination__wrapper {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.callout--pagination {
-  border: 2px solid $color--amber;
-  padding: 2rem 2rem 1rem 2rem;
-}
-
-.pagination {
-  background-color: $color--black;
-//   border: blue 1px solid;
-  padding: 2rem 2rem 1rem 2rem;
-  width: 100%;
-  &:hover {
-    background-color: $color--black;
-  }
-}
-
 
 // 6. Excerpt
 // ----------
@@ -201,7 +143,6 @@ z-index: 1010;
   position:relative;
   opacity:1;
   padding-bottom: 2rem;
-  transition: $primary-transition;
 }
 
 .excerpt__image {
@@ -213,47 +154,26 @@ z-index: 1010;
   opacity: 0.7;
 }
 
-.excerpt__text {
-  padding-top: 0.5rem;
+
+// 10. CV
+
+.cv {
+  @include breakpoint(small) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  @include breakpoint(medium) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  @include breakpoint(large) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 
-.excerpt__text__title {
-  color: $color--black;
-  padding-top: 1rem;
-}
-
-.excerpt__text__date {
-  color: $color--gray;
-}
-
-
-// 10. About
-
-.about__content {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	@include breakpoint(small only) {
-	padding-top: 2rem;
-	padding-bottom: 2rem
-  	}
-}
-
-.about__cv {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	@include breakpoint(small only) {
-	padding-top: 2rem;
-	padding-bottom: 2rem
-  	}
-}
-
-.about_book {
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+.cv__titles {
+  padding-bottom: 1rem;
 }
 
 // 11. Footer

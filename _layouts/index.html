@@ -3,20 +3,21 @@ layout: default
 ---
 
 <!-- Description -->
-	<div class="row">
-		<div class="small-10 medium-8 columns">
-		<h2>{{site.description}}</h2>
+	<div class="row index__description">
+		<div class="small-12 medium-10 large-9 columns">
+		<h1>{{site.description}}</h1>
 		</div>
 	</div>
 <!-- End Description -->
 
-<!-- Projects -->
-<div class="row projects small-up-1 medium-up-2 large-up-2 xlarge-up-2">
+
+<div class="row small-up-1 medium-up-2 large-up-2 xlarge-up-3" id="video-gallery">
   {% assign projects = site.projects | sort: 'date' | reverse | where: "is-featured", "true" %}
   {% for project in projects %}
-    <div class="columns">
-    {% include excerpt.html %}
-    </div>
+  <div class="columns excerpt" data-src="{{project.video}}">
+  <a href="{{project.video}}" ><img src="{{ project.image }}" class="excerpt__image" alt="{{project.title}}"></a>
+  <a href="{{project.video}}">{{project.title}}</a><br>
+  <a href="{{project.video}}" class="italic">{{ project.company }} — {{ project.director }}</a>
+  </div>
   {% endfor %}
 </div>
-<!-- End Projects -->
