@@ -9,7 +9,7 @@ $('#video-gallery').lightGallery({
         controls: 0
     },
     vimeoPlayerParams: {
-        autoplay, 1,
+        autoplay: 0,
         title : 0,
         byline : 0,
         portrait : 0,

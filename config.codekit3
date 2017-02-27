@@ -681,6 +681,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/loading.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/assets\/img\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -698,6 +706,30 @@
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/assets\/img\/video-play.png": {
+		"ft": 32768,
+		"iS": 4526,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video-play.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/vimeo-play.png": {
+		"ft": 32768,
+		"iS": 5428,
+		"oA": 0,
+		"oAP": "\/assets\/img\/vimeo-play.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/youtube-play.png": {
+		"ft": 32768,
+		"iS": 5177,
+		"oA": 0,
+		"oAP": "\/assets\/img\/youtube-play.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
@@ -1244,7 +1276,7 @@
 	"\/bower_components\/foundation-sites\/dist\/js\/foundation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/dist\/js\/foundation.js",
 		"oF": 0,
 		"sC": 1,
@@ -3040,7 +3072,7 @@
 	"\/bower_components\/froogaloop2\/froogaloop.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/froogaloop2\/froogaloop.js",
 		"oF": 0,
 		"sC": 1,
@@ -4537,7 +4569,7 @@
 	"\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.js",
 		"oF": 0,
 		"sC": 1,
@@ -4627,7 +4659,7 @@
 	"\/bower_components\/lightgallery\/demo\/js\/lg-video.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-video.js",
 		"oF": 0,
 		"sC": 1,
@@ -4801,7 +4833,7 @@
 	"\/bower_components\/lightgallery\/dist\/js\/lightgallery.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
 		"oF": 0,
 		"sC": 1,
@@ -6099,6 +6131,44 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"\/assets\/js\/app.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/js\/foundation.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/froogaloop2\/froogaloop.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/demo\/js\/lg-video.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.js",
+			"position": 5,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 499792706,
